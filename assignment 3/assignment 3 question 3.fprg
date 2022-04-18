@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-18 05:25:08 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTFPTU1GNkI7MjAyMi0wNC0xODswNToxNjoxNiBQTTszMzI5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTFPTU1GNkI7MjAyMi0wNC0xODswNToyNTowOCBQTTsxOzM0Mzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="books" type="Integer" array="False" size=""/>
+            <declare name="cost" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <declare name="shipping" type="Real" array="False" size=""/>
+            <input variable="books"/>
+            <input variable="cost"/>
+            <assign variable="total" expression="books*cost"/>
+            <if expression="total&gt;50">
+                <then>
+                    <assign variable="shipping" expression="0"/>
+                </then>
+                <else>
+                    <assign variable="shipping" expression="25"/>
+                </else>
+            </if>
+            <output expression="&quot;total: &quot;" newline="False"/>
+            <output expression="total" newline="True"/>
+            <output expression="&quot;shipping charge: &quot;" newline="False"/>
+            <output expression="shipping" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
