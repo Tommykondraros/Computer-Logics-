@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 03:10:51 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFWSDdCMzY7MjAyMi0wNC0yMDswMjo1MzoyNyBQTTszMzE1"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFWSDdCMzY7MjAyMi0wNC0yMDswMzoxMDo1MSBQTTsyOzM0MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="warrentee" type="Real" array="False" size=""/>
+            <declare name="cost" type="Real" array="False" size=""/>
+            <declare name="appliance" type="String" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <input variable="appliance"/>
+            <input variable="cost"/>
+            <if expression="cost&gt;1000">
+                <then>
+                    <assign variable="warrantee" expression="cost*0.1"/>
+                </then>
+                <else>
+                    <assign variable="warrentee" expression="cost*0.05"/>
+                </else>
+            </if>
+            <assign variable="total" expression="cost+warrentee"/>
+            <output expression="&quot;appliance: &quot;" newline="False"/>
+            <output expression="appliance" newline="True"/>
+            <output expression="&quot;cost: &quot;" newline="False"/>
+            <output expression="cost" newline="True"/>
+            <output expression="&quot;warrentee: &quot;" newline="False"/>
+            <output expression="warrentee" newline="True"/>
+            <output expression="&quot;total: &quot;" newline="False"/>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
