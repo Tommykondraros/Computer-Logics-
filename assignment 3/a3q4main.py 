@@ -1,0 +1,15 @@
+appliance=input("name of appliance")
+cost=float(input("cost of appliance"))
+if(cost>1000):
+  warrantee=cost*0.1
+else:
+  warrantee=cost*0.05
+total=cost+warrantee
+print("appliance: ")
+print(appliance)
+print("cost: ")
+print(cost)
+print("warrantee; ")
+print(warrantee)
+print("total: ")
+print(total)
