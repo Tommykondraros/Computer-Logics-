@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-02 01:54:53 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTJCTjYxTzk7MjAyMi0wNS0wMjswMTozODo1NyBQTTszMjg5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTJCTjYxTzk7MjAyMi0wNS0wMjswMTo1NDo1MyBQTTsxOzMzOTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantity" type="Real" array="False" size=""/>
+            <declare name="pricePerTicket" type="Real" array="False" size=""/>
+            <declare name="totalCost" type="Real" array="False" size=""/>
+            <assign variable="pricePerTicket" expression="0"/>
+            <assign variable="quantity" expression="0"/>
+            <output expression="&quot;quantity: &quot;" newline="True"/>
+            <input variable="quantity"/>
+            <if expression="quantity&gt;=25">
+                <then>
+                    <assign variable="pricePerTicket" expression="50"/>
+                </then>
+                <else>
+                    <if expression="quantity&gt;=10 &amp;&amp; quantity&lt;=24">
+                        <then>
+                            <assign variable="pricePerTicket" expression="60"/>
+                        </then>
+                        <else>
+                            <if expression="quantity&gt;=5 &amp;&amp; quantity&lt;=9">
+                                <then>
+                                    <assign variable="pricePerTicket" expression="70"/>
+                                </then>
+                                <else>
+                                    <if expression="quantity&lt;5">
+                                        <then>
+                                            <assign variable="pricePerTicket" expression="75"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="totalCost" expression="quantity*pricePerTicket"/>
+            <output expression="&quot;number of tickets: &quot; &amp; quantity" newline="True"/>
+            <output expression="&quot;Price Per ticket: &quot; &amp; pricePerTicket" newline="True"/>
+            <output expression="&quot;Total cost: &quot; &amp; totalCost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
