@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-28 12:13:48 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjg7MTI6MTE6NDggUE07MjkzMA=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjg7MTI6MTM6NDggUE07MTszMDQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DoYouWantToDoThisProgram" type="Integer" array="False" size=""/>
+            <input variable="Yes"/>
+            <input variable="LastName"/>
+            <input variable="HoursWorked"/>
+            <input variable="RateOfPay"/>
+            <output expression="GrossPay" newline="True"/>
+            <declare name="SumOfGrossPayAndNumberofEmployees" type="Integer" array="False" size=""/>
+        </body>
+    </function>
+</flowgorithm>

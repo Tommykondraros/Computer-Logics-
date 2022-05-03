@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-29 11:58:31 AM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjk7MTE6NTY6NDcgQU07MjkyMw=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjk7MTE6NTg6MzEgQU07MTszMDI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="City" type="Real" array="False" size=""/>
+            <declare name="MilesTravelled" type="Integer" array="False" size=""/>
+            <declare name="Gallons" type="Integer" array="False" size=""/>
+            <input variable="City"/>
+            <input variable="Gallons"/>
+            <input variable="MilesTravelled"/>
+            <output expression="ReturnMilesPerGallon" newline="True"/>
+            <output expression="Cost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

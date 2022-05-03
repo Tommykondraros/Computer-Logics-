@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-05 12:34:37 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMDU7MTI6MzA6MjkgUE07MjkyNg=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMDU7MTI6MzQ6MzcgUE07MTszMDM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Yes"/>
+            <input variable="Count"/>
+            <input variable="MarketValue"/>
+            <output expression="Value" newline="True"/>
+            <assign variable="Value" expression="MarketValue*ValuePercent"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 11:20:06 AM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMjA7MTE6MTk6MTEgQU07MjkwNQ=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMjA7MTE6MjA6MDYgQU07MTszMDA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="Integer" array="False" size=""/>
+            <assign variable="lastname" expression="LN"/>
+            <if expression="LN=10">
+                <then/>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

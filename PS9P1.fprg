@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-13 12:14:53 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMTM7MTI6MTM6MTkgUE07MjkyNQ=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMTM7MTI6MTQ6NTMgUE07MTszMDMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quantity" type="Integer" array="False" size=""/>
+            <declare name="Price" type="Integer" array="False" size=""/>
+            <declare name="DiscountRate" type="Integer" array="False" size=""/>
+            <input variable="Quantity"/>
+            <input variable="Price"/>
+            <input variable="DiscountRate"/>
+            <output expression="DiscountedAmount" newline="True"/>
+            <assign variable="DiscountedAmount" expression="DiscountedPrice"/>
+        </body>
+    </function>
+</flowgorithm>

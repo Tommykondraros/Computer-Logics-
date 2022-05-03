@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-29 12:15:38 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjk7MTI6MTM6NTggUE07MjkzNA=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjk7MTI6MTU6MzggUE07MTszMDQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LastName" type="Real" array="False" size=""/>
+            <declare name="CreditHours" type="Integer" array="False" size=""/>
+            <declare name="DistrictCode" type="Integer" array="False" size=""/>
+            <input variable="LastName"/>
+            <input variable="CreditHours"/>
+            <input variable="Code"/>
+            <output expression="Tuition" newline="True"/>
+            <input variable="I"/>
+            <assign variable="I" expression="250"/>
+            <input variable="O"/>
+            <assign variable="O" expression="500"/>
+        </body>
+    </function>
+</flowgorithm>

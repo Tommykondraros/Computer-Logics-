@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-28 12:16:00 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjg7MTI6MTM6NTEgUE07MjkyNg=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjg7MTI6MTY6MDAgUE07MTszMDMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DoYouWantToDoThisProgram" type="Integer" array="False" size=""/>
+            <input variable="YesOrNo"/>
+            <input variable="Quantity"/>
+            <input variable="Price"/>
+            <output expression="ExtendedPrice" newline="True"/>
+            <if expression="IfGreater">
+                <then>
+                    <declare name="TwentyFive" type="Integer" array="False" size=""/>
+                </then>
+                <else>
+                    <declare name="Ten" type="Integer" array="False" size=""/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

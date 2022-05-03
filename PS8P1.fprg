@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-05 12:20:27 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMDU7MTI6MTg6MTYgUE07MjkyOA=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMDU7MTI6MjA6MjcgUE07MTszMDMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="yesorno"/>
+            <input variable="LastName"/>
+            <input variable="Month"/>
+            <input variable="Sales"/>
+            <output expression="Forecast" newline="True"/>
+            <assign variable="Forecast" expression="ForecastPercent"/>
+            <input variable="Sales"/>
+            <assign variable="Sales" expression="Sales*(1+ForecastPercent)"/>
+        </body>
+    </function>
+</flowgorithm>

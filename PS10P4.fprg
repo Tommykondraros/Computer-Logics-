@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 11:31:36 AM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMjA7MTE6MzA6MTIgQU07Mjg5OQ=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMjA7MTE6MzE6MzYgQU07MTszMDE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LastName" type="Integer" array="False" size=""/>
+            <declare name="BattingAverage" type="Integer" array="False" size=""/>
+            <input variable="BattingAverageAndLastName"/>
+            <if expression="BA=0.25">
+                <then/>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-13 12:17:41 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMTM7MTI6MTU6NDkgUE07MjkzMA=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMTM7MTI6MTc6NDEgUE07MTszMDMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SalesReport" type="Integer" array="False" size=""/>
+            <input variable="LastName"/>
+            <input variable="Sales"/>
+            <output expression="Commission" newline="True"/>
+            <if expression="100000">
+                <then>
+                    <declare name="Under100000" type="Integer" array="False" size=""/>
+                    <declare name="5Percent" type="Integer" array="False" size=""/>
+                </then>
+                <else>
+                    <declare name="Over100000" type="Integer" array="False" size=""/>
+                    <declare name="10Percent" type="Integer" array="False" size=""/>
+                </else>
+            </if>
+            <output expression="LastName, Commission, Target" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

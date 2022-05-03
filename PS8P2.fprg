@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-05 12:26:37 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMDU7MTI6MjA6MzMgUE07MjkyMA=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMDU7MTI6MjY6MzcgUE07MTszMDM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Yes"/>
+            <output expression="Length" newline="True"/>
+            <output expression="Width" newline="True"/>
+            <output expression="Height" newline="True"/>
+            <input variable="SquareFootage"/>
+            <output expression="ComputeSquareFootage" newline="True"/>
+            <assign variable="SquareFootage" expression="(2*Length*Width) + 2(2*Length*Height) + 2(2*Width*Height)"/>
+        </body>
+    </function>
+</flowgorithm>

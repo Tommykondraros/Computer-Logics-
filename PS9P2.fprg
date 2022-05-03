@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-13 12:15:46 PM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMTM7MTI6MTQ6NTUgUE07MjkyNg=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMTM7MTI6MTU6NDYgUE07MTszMDM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LastName" type="Real" array="False" size=""/>
+            <input variable="LastName"/>
+            <input variable="ExamScores"/>
+            <output expression="Average" newline="True"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

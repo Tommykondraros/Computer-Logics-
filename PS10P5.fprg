@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-20 11:32:13 AM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMjA7MTE6MzA6MTIgQU07Mjg5OQ=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDQtMjA7MTE6MzI6MTMgQU07MjszMDEx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LastName" type="Integer" array="False" size=""/>
+            <declare name="BattingAverage" type="Integer" array="False" size=""/>
+            <input variable="BattingAverageAndLastName"/>
+            <if expression="BA=0.25">
+                <then/>
+                <else/>
+            </if>
+            <declare name="NameNotFound" type="Integer" array="False" size=""/>
+            <assign variable="nameNotFound" expression="NNF"/>
+            <output expression="NNF" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

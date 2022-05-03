@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-29 11:55:38 AM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjk7MTE6NTM6NDEgQU07MjkxNA=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjk7MTE6NTU6MzggQU07MTszMDMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quantity" type="Integer" array="False" size=""/>
+            <declare name="Price" type="Integer" array="False" size=""/>
+            <input variable="Quantity"/>
+            <input variable="Price"/>
+            <if expression="Over100000">
+                <then>
+                    <declare name="Ten" type="Integer" array="False" size=""/>
+                </then>
+                <else>
+                    <declare name="NotTen" type="Integer" array="False" size=""/>
+                </else>
+            </if>
+            <output expression="Price" newline="True"/>
+            <output expression="Quantity" newline="True"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

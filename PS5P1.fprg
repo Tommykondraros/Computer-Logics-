@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rozno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-28 11:40:28 AM"/>
+        <attribute name="created" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjg7MTE6Mzk6MDggQU07MjkyMA=="/>
+        <attribute name="edited" value="cm96bm87TEFQVE9QLVZIUDJRT0k0OzIwMjItMDMtMjg7MTE6NDA6MjggQU07MTszMDIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="OddNumber"/>
+            <declare name="OddNumber" type="Integer" array="False" size=""/>
+            <output expression="OddNumberBetween1-25" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
